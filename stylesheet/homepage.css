@@ -21,6 +21,7 @@ header .logoarea h2 {
     align-items: center;
     justify-content: center;
     height: 50px;
+    font-family: serif;
 }
 header .list ul {
     display: flex;
@@ -39,6 +40,34 @@ header .list ul li:last-child {
     color: #fff;
     padding: 0px 20px;
     font-weight:bold;
+}
+.mission1 {
+    color: #2a918d;
+}
+.mission2 {
+    color: #3376a8;
+}
+.mission3 {
+    color: #d1d463;
+}
+.mission4 {
+    color: #bf5662;
+}
+.mission5 {
+    color: #7a56a1;
+}
+.cat.cat-3 {
+    background: #d1d463;
+}
+.cat.cat-4 {
+    background: #bf5662;
+}
+.cat.cat-5 {
+    background: #7a56a1;
+}
+a.contact-me {
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Firstview */
@@ -122,7 +151,6 @@ section.news {
     padding: 3px 0px;
 }
 .cat {
-    background-color: #0b9adf;
     color: #fff;
     display: inline-block;
     width: 70px;
@@ -142,7 +170,7 @@ section.news {
     padding: 10px 0px;
 }
 .service-title::after {
-    content: 'CITY Labの事業';
+    content: 'どんな出来事があったか';
     display: block;
     font-size: 0.3em;
 }

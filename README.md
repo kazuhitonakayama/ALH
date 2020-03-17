@@ -1,4 +1,3 @@
-# trace_1
-This is trace for training design.
-The URL is ...
+This site is my proposal message for ALH(As Leading Harmonizer)!
+This site is located at https://kazuhitonakayama.github.io/ALH/homepage.html
 
