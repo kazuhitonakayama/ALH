@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: #fff;
+    color: #000;
+    height: 50px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    font-size: 0.7em;
+    justify-content: space-between;
+}
+header .logoarea {
+    width: 150px;
+}
+header .logoarea h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+header .list ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    height: 50px;
+}
+header .list ul li {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+header .list ul li:last-child {
+    background: #31d0ee;
+    margin: 0;
+    color: #fff;
+    padding: 0px 20px;
+    font-weight:bold;
+}
+
+/* Firstview */
+.firstview {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    background-image: url("../images/firstview-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*
+.firstview-bg {
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(255,255,255,0.5);
+    z-index: 8;
+}
+*/
+.firstview-titlearea {
+    position: relative;
+    z-index: 9;
+    top: 28%;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2em;
+    letter-spacing: 0.4em;
+    text-shadow:2px 2px 3px #000;
+}
+h1.firstview-titlearea_title {
+    font-size: 3em;
+    font-family: serif;
+}
+/* section news */
+section.news {
+    background: #edfcff;
+    height: 130px;
+}
+.newstextarea {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 130px;
+    color: #8e9597;
+}
+.newstextarea-title {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+.newstextarea-title-p {
+    transform: translate(0%, -25%);
+    color: #0b99dd;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.newstextarea-title-p::after {
+    content: '一覧を見る  >';
+    display: block;
+    color: #8e9597;
+    font-weight: 100;
+    font-size: 0.1em;
+}
+.newstextarea-lists {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+.newstextarea-lists ul {
+    width: 100%;
+}
+.newstextarea-lists ul li {
+    list-style: none;
+    font-size: 0.7em;
+    border-bottom: 1px solid #bcebfe;
+    margin: 5px 0px;
+    padding: 3px 0px;
+}
+.cat {
+    background-color: #0b9adf;
+    color: #fff;
+    display: inline-block;
+    width: 70px;
+    height: 17px;
+    text-align: center;
+    margin: 0px 20px;
+}
+.service {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+.service-title {
+    background: #fff;
+    text-align: center;
+    color: #0b9bde;
+    padding: 10px 0px;
+}
+.service-title::after {
+    content: 'CITY Labの事業';
+    display: block;
+    font-size: 0.3em;
+}
+.service-contentarea {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-contentarea_card {
+    width: 30%;
+    position: relative;
+}
+.service-contentarea_card img {
+    width: 100%;
+    height: 200px;
+    transition: .5s;
+}
+.service-contentarea_card img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+.img-hover-bg {
+    width: 100%;
+    height: 200px;
+    background: rgba(167, 13, 13, 0.5);
+}
