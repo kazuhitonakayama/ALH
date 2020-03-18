@@ -203,7 +203,7 @@ section.news {
 }
 .service-contentarea_card img {
     width: 100%;
-    height: 200px;
+    height: 300px;
     transition: .5s;
     position: absolute;
     z-index: 10;
