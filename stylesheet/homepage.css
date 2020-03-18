@@ -75,7 +75,7 @@ a.contact-me {
     height: 60vh;
     width: 100%;
     position: relative;
-    background-image: url("../images/firstview-bg.jpg");
+    background-image: url("../images/Geek.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -99,6 +99,10 @@ a.contact-me {
     letter-spacing: 2em;
     letter-spacing: 0.4em;
     text-shadow:2px 2px 3px #000;
+}
+a {
+    text-decoration: none;
+    color: #000;
 }
 h1.firstview-titlearea_title {
     font-size: 3em;
@@ -162,6 +166,7 @@ section.news {
     width: 70%;
     margin: auto;
     margin-top: 20px;
+    height: 45vh;
 }
 .service-title {
     background: #fff;
@@ -187,13 +192,61 @@ section.news {
     width: 100%;
     height: 200px;
     transition: .5s;
+    position: absolute;
+    z-index: 10;
 }
 .service-contentarea_card img:hover {
     transform: scale(1.1);
     transition: .5s;
 }
-.img-hover-bg {
-    width: 100%;
-    height: 200px;
-    background: rgba(167, 13, 13, 0.5);
+.service-contentarea_card-skill {
+    text-align: center;
+    color: #d1d463;
+    font-weight: bold;
 }
+.service-contentarea_card-co-create {
+    text-align: center;
+    color: #7a56a1;
+    font-weight: bold;
+}
+
+/* Skill */
+.service-contentarea-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10% 0%;
+}
+.service-contentarea-card-img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.service-contentarea-card-img img {
+    width: 100%;
+    transition: .5s;
+}
+.service-contentarea-card-img img:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+.service-contentarea-card-txt {
+    width: 100%;
+     text-align: center;
+}
+.service-contentarea-card-txt h3 {
+    display: inline-block;
+    background: linear-gradient(100deg, #d1d463, #e8ec6d 50%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.service-title.skill {
+    color: #d1d463;
+}
+.service-title.co-create {
+    color: #7a56a1;
+}
+
+
