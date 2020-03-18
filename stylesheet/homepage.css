@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: serif;
 }
 
 header {
@@ -22,6 +23,10 @@ header .logoarea h2 {
     justify-content: center;
     height: 50px;
     font-family: serif;
+    color: #31d0ee;
+}
+header .logoarea h2 a {
+    color: #31d0ee;
 }
 header .list ul {
     display: flex;
@@ -75,7 +80,7 @@ a.contact-me {
     height: 60vh;
     width: 100%;
     position: relative;
-    background-image: url("../images/Geek.jpg");
+    background-image: url("../images/geek2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -166,7 +171,7 @@ section.news {
     width: 70%;
     margin: auto;
     margin-top: 20px;
-    height: 45vh;
+    height: 60vh;
 }
 .service-title {
     background: #fff;
@@ -179,13 +184,21 @@ section.news {
     display: block;
     font-size: 0.3em;
 }
+.service-title.no-sub::after {
+    content: '大切な価値観';
+    display: block;
+    font-size: 0.3em;
+}
+.service-title.no-sub ~ .service-contentarea p {
+    text-align: center;
+}
 .service-contentarea {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .service-contentarea_card {
-    width: 30%;
+    width: 45%;
     position: relative;
 }
 .service-contentarea_card img {
@@ -207,6 +220,9 @@ section.news {
 .service-contentarea_card-co-create {
     text-align: center;
     color: #7a56a1;
+    font-weight: bold;
+}
+.bold {
     font-weight: bold;
 }
 
@@ -236,17 +252,17 @@ section.news {
      text-align: center;
 }
 .service-contentarea-card-txt h3 {
-    display: inline-block;
-    background: linear-gradient(100deg, #d1d463, #e8ec6d 50%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #d1d463;
 }
 .service-title.skill {
     color: #d1d463;
 }
 .service-title.co-create {
     color: #7a56a1;
+}
+div.service-contentarea-card-txt.co-create h3 {
+    color: #7a56a1 !important;
+    -webkit-text-fill-color: #7a56a1;
 }
 
 
